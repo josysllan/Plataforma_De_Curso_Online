@@ -20,3 +20,31 @@ public class CursoRepositorio {
     }
 
 }
+
+
+/*
+//Pilha
+package Repositorio;
+
+import java.util.Stack;
+
+import Entidades.Curso;
+
+public class CursoRepositorio {
+    private Stack<Curso> pilhaCursos = new Stack<>();
+
+    public void adicionarCurso(Curso curso) {
+        pilhaCursos.push(curso); // Empilha o curso no topo
+    }
+
+    public void removerCurso() {
+        if (!pilhaCursos.isEmpty()) {
+            pilhaCursos.pop(); // Desempilha o curso do topo
+        }
+    }
+
+    public Stack<Curso> listarCurso() {
+        return pilhaCursos; // Retorna a pilha de cursos
+    }
+}
+*/
